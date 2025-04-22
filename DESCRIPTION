@@ -23,3 +23,4 @@ Imports:
     kknn,
     readr
 VignetteBuilder: knitr
+URL: https://nicccolas.github.io/testpackage/
