@@ -1,12 +1,25 @@
 Package: testpackage
-Title: What the Package Does (One Line, Title Case)
+Title: Load titanic.csv
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person(given="Nicolas", family="Zhu", email="jane@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: load titanic.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    broom,
+    docopt,
+    dplyr,
+    ggplot2,
+    janitor,
+    kknn,
+    readr
+VignetteBuilder: knitr
