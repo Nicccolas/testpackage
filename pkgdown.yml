@@ -1,0 +1,9 @@
+pandoc: 3.1.11
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  my-vignette: my-vignette.html
+last_built: 2025-04-22T23:00Z
+urls:
+  reference: https://nicccolas.github.io/testpackage/reference
+  article: https://nicccolas.github.io/testpackage/articles
